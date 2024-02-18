@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+.logo img {
+    max-width: 50%;
+    height: auto;
+   
+
+}
+a.logo{
+    width:30%;
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        max-width: 90%;
+        height: auto;
+    
+    }
+}
+.nav-link{
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+.nav-link:hover{
+color:rgb(54, 1, 1);
+}
+.search{
+    height:40px;
+    width:80%;
+    border-radius:60px;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    -ms-border-radius:60px;
+    -o-border-radius:60px;
+    outline: none;
+    border: 2px solid rgb(124, 0, 27);
+    margin-right: -35px;
+
+}
+.search::placeholder{
+    color: black;
+}
+.btn0{
+    height:40px;
+    width:30%;
+    outline:none;
+    border:none;
+    background-color:rgb(124, 0, 27) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+
+}
+/*main*/
+.main{
+    background: url(./3.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+@media (max-width: 450px){
+    .main h1{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+} 
+
+.btn1{
+    height:45px;
+    width:35%;
+    border:none;
+    outline:none;
+    background-color: rgb(124, 0, 27) ;
+    color: white;
+    font-weight: 600;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+/* icons */
+.ic1{
+    width:  100px;
+    height: 100px;
+    object-fit:scale-down;
+    
+}
+
+
+.border-right{
+    border-right: 1px solid #ccc;
+    height: 125px;
+}
+@media (max-width: 500px){
+    .border-right{
+       border:none;
+    }
+} 
+@media (max-width: 450px){
+    .ic1{
+        padding:20px;
+    }
+} 
+/*product */
+hr {
+    width: 30%;
+    color: rgb(58, 0, 13);
+    margin-left: auto;
+    margin-right: auto;
+  }
+.card-name{
+font-weight: 700;
+color: rgb(53, 0, 0);
+}
+.card-text{
+font-weight: 300;
+color:#525252;
+}
+.card{
+    border: 2px solid #52525252;
+}
+/*apple*/
+.apple{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./apple.jpg)no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1, h6{
+    color:rgb(32, 0, 0);
+}
+.apple h1{
+    font-family: 'labster',cursive;
+}
+/*contact*/
+
+.contact h1,h6{
+    color:rgb(32, 0, 0);
+}
+/*news*/
+.news{
+    background-color: rgb(31, 0, 0);
+    color: white;
+}
+.btn2{
+    height:45px;
+    width:100px;
+    background-color: white;
+    border: 2px solid white;
+
+    font-weight: 600;
+    margin-left: -10px;
+    outline: none;
+
+}
+.news input{
+    height:45px;
+    width:55%;
+    border: 2px solid white;
+    background: black;
+   outline: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.news::placeholder{
+    color:white;
+}
+.news h6{
+    color: white;
+}
